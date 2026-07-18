@@ -1,20 +1,500 @@
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="A Vite + React + TypeScript template" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="theme-color" content="#646cff" />
-		<meta property="og:title" content="Vite + React + TS" />
-		<meta property="og:description" content="A modern Vite + React + TypeScript template" />
-		<meta property="og:type" content="website" />
-		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
-		<link rel="preload" as="image" href="/vite.svg" />
-		<title>Vite + React + TS</title>
-	</head>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="language" content="Portuguese">
+<meta http-equiv="content-language" content="pt-br,en">
 
-	<body>
-		<div id="root"></div>
-		<script type="module" src="/src/react-app/main.tsx"></script>
-	</body>
+<title>Apartamento em Ipanema · 300 m² · Alto Padrão à Venda</title>
+<meta name="description" content="Apartamento de alto padrão em Ipanema: 300 m², um andar inteiro, 4 quartos com suíte master e vista para o mar. Pronto para morar, porteira fechada. R$ 6.900.000.">
+<link rel="canonical" href="https://moraremipanema.com/">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#201F1D">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="Morar Ipanema">
+<meta property="og:title" content="Apartamento em Ipanema · 300 m²">
+<meta property="og:description" content="Alto padrão em Ipanema: 300 m², 4 quartos, suíte master e vista para o mar. R$ 6.900.000.">
+<meta property="og:url" content="https://moraremipanema.com/">
+<meta property="og:image" content="https://moraremipanema.com/fotos/og-capa.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Apartamento em Ipanema · 300 m²">
+<meta name="twitter:description" content="Alto padrão em Ipanema, um andar inteiro, vista para o mar. R$ 6.900.000.">
+<meta name="twitter:image" content="https://moraremipanema.com/fotos/og-capa.jpg">
+
+<link rel="alternate" hreflang="pt-BR" href="https://moraremipanema.com/">
+<link rel="alternate" hreflang="en" href="https://moraremipanema.com/?lang=en">
+<link rel="alternate" hreflang="x-default" href="https://moraremipanema.com/">
+
+<!-- Google tag (gtag.js) — Google Ads account 996-256-5639 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18308409015"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-18308409015');
+</script>
+
+<!-- Google Ads website-call conversion: Ligação (21995532222) -->
+<script>
+gtag('config', 'AW-18308409015/N2L8CJLQy80cELfNkJpE', {
+  'phone_conversion_number': '21995532222'
+});
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Apartamento de alto padrão em Ipanema — 300 m²",
+  "description": "Apartamento de 300 m² em Ipanema, ocupando um andar inteiro. Planta circular, 4 quartos com suíte master, vista lateral para o mar, 2 vagas, porteira fechada.",
+  "image": [
+    "https://moraremipanema.com/fotos/apartamento-ipanema-sala-varanda-vista-mar.jpg",
+    "https://moraremipanema.com/fotos/sala-estar-ipanema-vista-mar.jpg",
+    "https://moraremipanema.com/fotos/suite-master-ipanema-closet.jpg",
+    "https://moraremipanema.com/fotos/cozinha-gourmet-ipanema.jpg"
+  ],
+  "brand": { "@type": "Brand", "name": "Morar Ipanema" },
+  "category": "Imóvel residencial de alto padrão",
+  "offers": {
+    "@type": "Offer",
+    "price": "6900000",
+    "priceCurrency": "BRL",
+    "availability": "https://schema.org/InStock",
+    "url": "https://moraremipanema.com/",
+    "areaServed": "Ipanema, Zona Sul, Rio de Janeiro"
+  },
+  "additionalProperty": [
+    { "@type": "PropertyValue", "name": "Área", "value": "300 m²" },
+    { "@type": "PropertyValue", "name": "Quartos", "value": "4" },
+    { "@type": "PropertyValue", "name": "Banheiros", "value": "3 + lavabo" },
+    { "@type": "PropertyValue", "name": "Vagas", "value": "2" },
+    { "@type": "PropertyValue", "name": "Andar", "value": "8º (único no pavimento)" },
+    { "@type": "PropertyValue", "name": "Vista", "value": "Lateral mar" }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FBFAF7;--ink:#1C1B19;--muted:#9B958A;--line:#E9E4DA;--tan:#C0925A;--dark:#201F1D;--card:#F4F1EA;--nav-h:66px;--hero:url("")}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Inter",system-ui,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased;padding-bottom:var(--nav-h)}
+h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:500;margin:0;letter-spacing:.005em}
+.wrap{max-width:1080px;margin:0 auto;padding:0 26px}
+.eyebrow{font-size:.7rem;font-weight:600;letter-spacing:.34em;text-transform:uppercase;color:var(--muted)}
+a{color:inherit;text-decoration:none}
+.lang-switcher{position:fixed;top:20px;right:26px;z-index:50;display:flex;gap:8px;background:rgba(251,250,247,.95);backdrop-filter:blur(10px);padding:10px 14px;border-radius:50px;border:1px solid var(--line)}
+.lang-switcher button{background:0;border:0;cursor:pointer;font-size:.75rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;padding:4px 8px;border-radius:3px;transition:all .2s;color:var(--muted)}
+.lang-switcher button.active{background:var(--tan);color:#fff}
+.hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;overflow:hidden;color:#fff}
+.hero .bg{position:absolute;inset:0;background:var(--hero) center/cover no-repeat;background-color:#8c9aa0}
+.hero .bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,22,24,.62) 0%,rgba(20,22,24,.18) 46%,rgba(20,22,24,0) 70%),linear-gradient(0deg,rgba(20,22,24,.5),transparent 42%)}
+.hero .bg.placeholder{background-image:radial-gradient(120% 90% at 78% 6%,#cfe0e6,transparent 55%),linear-gradient(180deg,#aebfc4 0%,#9fb0b4 40%,#c9c2b4 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:44px}
+.hero .top{position:absolute;top:24px;left:0;right:0;text-align:center;color:rgba(255,255,255,.9)}
+.hero h1{font-size:clamp(2.8rem,8vw,5.4rem);line-height:1;margin:.1em 0 0}
+.hero h1 sup{font-size:.42em;font-weight:400;top:-1.1em}
+.hero .rule{width:64px;height:2px;background:var(--tan);margin:22px 0 24px}
+.hero .sub{font-size:clamp(1rem,1.7vw,1.28rem);font-weight:300;max-width:26em;color:rgba(255,255,255,.94)}
+.hero .closed{margin-top:26px;font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+.ctabar{display:block;background:var(--dark);color:#fff;padding:26px;text-align:center}
+.ctabar a{display:flex;align-items:center;justify-content:center;gap:12px;font-size:.86rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase}
+.ctabar svg{width:16px;height:16px}.ctabar:hover{background:#000}
+.pricebar{text-align:center;padding:18px;border-bottom:1px solid var(--line);background:var(--paper)}
+.pricebar b{font-family:"Cormorant Garamond",serif;font-size:1.5rem;font-weight:600}
+.pricebar span{color:var(--muted);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;margin-left:12px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}
+.stat{padding:34px 18px;text-align:center;border-right:1px solid var(--line)}
+.stat:last-child{border-right:0}
+.stat .v{font-family:"Cormorant Garamond",serif;font-size:1.9rem;line-height:1;color:var(--ink)}
+.stat .k{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-top:12px}
+section{scroll-margin-top:20px}
+.block{padding:88px 0}.block .lead{max-width:60ch}
+.block h2{font-size:clamp(2rem,4vw,3rem);line-height:1.06;margin-bottom:.5em}
+.block p{color:#4a463f;font-size:1.06rem;margin:0 0 1.1em}
+.tan{color:var(--tan)}
+.mosaic{display:grid;grid-template-columns:repeat(6,1fr);grid-auto-rows:132px;gap:12px;grid-auto-flow:dense;margin-top:8px}
+.slot{position:relative;border-radius:3px;overflow:hidden;background:var(--card);display:block}
+.slot img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s ease}
+.slot:hover img{transform:scale(1.04)}
+.g2{grid-column:span 2}.g3{grid-column:span 3}.g4{grid-column:span 4}.tall{grid-row:span 2}
+.spec .row{display:flex;justify-content:space-between;gap:24px;padding:18px 2px;border-bottom:1px solid var(--line)}
+.spec .row .k{color:var(--muted);font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}
+.spec .row .v{text-align:right;font-weight:500;max-width:60%}
+.detgrid{display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+@media (max-width:760px){.detgrid{grid-template-columns:1fr}}
+.contact{background:var(--card)}
+.contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.form{background:#fff;border:1px solid var(--line);border-radius:5px;padding:32px}
+.form label{display:block;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.form .field{margin-bottom:18px}
+.form input,.form textarea{width:100%;background:var(--paper);border:1px solid var(--line);border-radius:3px;font-family:"Inter";font-size:1rem;padding:13px 15px;color:var(--ink);transition:border-color .2s}
+.form input:focus,.form textarea:focus{outline:none;border-color:var(--tan)}
+.form textarea{resize:vertical;min-height:84px}
+.form button{width:100%;background:var(--dark);color:#fff;border:0;border-radius:3px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;font-family:"Inter";font-size:.82rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;padding:16px;margin-top:4px;transition:background .2s}
+.form button:hover{background:#000}.form button svg{width:16px;height:16px}
+.phone-link{display:block;margin-top:14px;padding:13px 15px;border:1px solid var(--dark);border-radius:3px;text-align:center;font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;transition:all .2s}
+.phone-link:hover{background:var(--dark);color:#fff}
+.form .note{font-size:.78rem;color:var(--muted);text-align:center;margin:14px 0 0}
+@media (max-width:760px){.contact .grid{grid-template-columns:1fr;gap:36px}}
+.tabbar{position:fixed;left:0;right:0;bottom:0;height:var(--nav-h);z-index:40;background:rgba(251,250,247,.92);backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr)}
+.tabbar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);transition:color .2s}
+.tabbar a svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:1.6}
+.tabbar a.active{color:var(--ink)}.tabbar a.active svg{stroke:var(--tan)}
+footer{padding:30px 0;text-align:center;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line)}
+.hidden{display:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.slot:hover img{transform:none}}
+@media (max-width:620px){
+  .stats{grid-template-columns:repeat(2,1fr)}.stat{border-bottom:1px solid var(--line)}.stat:nth-child(2){border-right:0}
+  .mosaic{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px}
+  .g2,.g3,.g4{grid-column:span 2}.tall{grid-row:span 1}.g4.tall,.portrait{grid-row:span 2}
+}
+</style>
+</head>
+<body>
+
+<div class="lang-switcher">
+  <button class="lang-btn active" data-lang="pt">PT</button>
+  <button class="lang-btn" data-lang="en">EN</button>
+</div>
+
+<section id="inicio">
+  <header class="hero">
+    <div class="bg" id="herobg" role="img" aria-label="Sala e varanda com vista lateral para o mar em apartamento de alto padrão em Ipanema"></div>
+    <div class="top eyebrow" data-i18n="location">Ipanema · Segunda quadra</div>
+    <div class="wrap">
+      <h1 data-i18n="title">Ipanema 300<sup>m²</sup></h1>
+      <div class="rule"></div>
+      <p class="sub" data-i18n="subtitle">Um andar inteiro. Um projeto de arquitetura. Pronto para morar.</p>
+      <p class="closed" data-i18n="gated">Porteira fechada</p>
+    </div>
+  </header>
+
+  <div class="ctabar">
+    <a data-whatsapp href="#">
+      <span data-i18n="schedule">Agendar uma visita</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+    </a>
+  </div>
+
+  <div class="pricebar"><b>R$ 6.900.000</b><span data-i18n="sale">Venda direta</span></div>
+
+  <div class="stats">
+    <div class="stat"><div class="v">300 m²</div><div class="k" data-i18n="area">Área</div></div>
+    <div class="stat"><div class="v">4</div><div class="k" data-i18n="bedrooms">Quartos</div></div>
+    <div class="stat"><div class="v" data-i18n="master-label">Master</div><div class="k" data-i18n="suite">Suíte</div></div>
+    <div class="stat"><div class="v">8º · único</div><div class="k" data-i18n="floor">Andar</div></div>
+  </div>
+</section>
+
+<section class="block wrap">
+  <div class="lead">
+    <p class="eyebrow" data-i18n="property-label">O imóvel</p>
+    <h2 data-i18n="property-title">Existem apartamentos.<br>E existem obras de arquitetura.</h2>
+    <p><span class="tan" data-i18n="property-desc1">Este ocupa sozinho todo o 8º andar</span>, num edifício exclusivo na Zona Sul do Rio — privacidade absoluta e vista lateral para o mar. A planta circular divide social e íntima por um amplo corredor, num acabamento de altíssimo padrão.</p>
+    <p data-i18n="property-desc2">Sala em três ambientes com pé-direito alto, cozinha integrada e planejada com porta de correr, lavabo e área de serviço com dependência completa. Na ala íntima, a suíte master traz grande closet e banheiro inspirado na melhor hotelaria — chuveiro duplo e duas cubas — além dos demais quartos, escritório e banheiros sociais.</p>
+    <p data-i18n="property-desc3">Marcenaria planejada, várias peças em mármore, janelas antirruído, 2 vagas e portaria 24h. Aqui não se compra apenas um apartamento: adquire-se um projeto residencial completo, <b>vendido porteira fechada</b> — e negociado diretamente com o proprietário, com discrição.</p>
+  </div>
+</section>
+
+<section id="galeria" class="block wrap">
+  <p class="eyebrow" data-i18n="gallery-label">Galeria</p>
+  <h2 style="margin-bottom:.4em" data-i18n="gallery-title">Os ambientes</h2>
+  <div class="mosaic">
+    <a class="slot g4 tall" href="/fotos/sala-estar-ipanema-vista-mar.jpg" target="_blank" rel="noopener"><img src="/fotos/sala-estar-ipanema-vista-mar.jpg" alt="Sala de estar integrada com vista para o mar em apartamento de Ipanema" loading="lazy"></a>
+    <a class="slot g2 tall" href="/fotos/suite-master-ipanema-closet.jpg" target="_blank" rel="noopener"><img src="/fotos/suite-master-ipanema-closet.jpg" alt="Suíte master com grande closet planejado em Ipanema" loading="lazy"></a>
+    <a class="slot g2 tall" href="https://moraremipanema-site.pages.dev/vista-mar-praia-ipanema.jpg" target="_blank" rel="noopener"><img src="https://moraremipanema-site.pages.dev/vista-mar-praia-ipanema.jpg" alt="Vista para o mar e a Praia de Ipanema a partir do apartamento" loading="lazy" width="1512" height="2016"></a>
+    <a class="slot g3" href="/fotos/cozinha-gourmet-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/cozinha-gourmet-ipanema.jpg" alt="Cozinha gourmet com ilha e sala de jantar integrada" loading="lazy"></a>
+    <a class="slot g3" href="/fotos/living-integrado-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/living-integrado-ipanema.jpg" alt="Living integrado com poltronas e paisagismo" loading="lazy"></a>
+    <a class="slot g2" href="/fotos/cozinha-planejada-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/cozinha-planejada-ipanema.jpg" alt="Cozinha planejada com bancada e marcenaria sob medida" loading="lazy"></a>
+    <a class="slot g2" href="/fotos/banheiro-suite-master-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/banheiro-suite-master-ipanema.jpg" alt="Banheiro da suíte master com duas cubas e mármore" loading="lazy"></a>
+    <a class="slot g2" href="/fotos/og-capa.jpg" target="_blank" rel="noopener"><img src="/fotos/og-capa.jpg" alt="Vista geral do apartamento de alto padrão" loading="lazy"></a>
+    <a class="slot g3 tall" href="/fotos/suite-master-ipanema-quarto.jpg" target="_blank" rel="noopener"><img src="/fotos/suite-master-ipanema-quarto.jpg" alt="Quarto da suíte master com painel e acesso ao closet" loading="lazy"></a>
+    <a class="slot g3" href="/fotos/adega-bar-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/adega-bar-ipanema.jpg" alt="Adega e bar com obra de arte e clima praiano" loading="lazy"></a>
+    <a class="slot g2" href="/fotos/quarto-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/quarto-ipanema.jpg" alt="Quarto com armário planejado" loading="lazy"></a>
+    <a class="slot g2 tall" href="/fotos/area-servico-dependencia-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/area-servico-dependencia-ipanema.jpg" alt="Área de serviço ampla com dependência completa" loading="lazy"></a>
+    <a class="slot g2 tall portrait" href="/fotos/banheiro-social-ipanema.jpg" target="_blank" rel="noopener"><img src="/fotos/banheiro-social-ipanema.jpg" alt="Banheiro social com box e revestimento amadeirado" loading="lazy" width="640" height="960"></a>
+  </div>
+</section>
+
+<section id="detalhes" class="block wrap">
+  <p class="eyebrow" data-i18n="specs-label">Detalhes</p>
+  <h2 style="margin-bottom:.7em" data-i18n="specs-title">Ficha técnica</h2>
+  <div class="detgrid">
+    <div class="spec">
+      <div class="row"><span class="k" data-i18n="spec-area">Área</span><span class="v">300 m²</span></div>
+      <div class="row"><span class="k" data-i18n="spec-bedrooms">Quartos</span><span class="v">4 <small data-i18n="spec-bedrooms-detail">(3 dorm. + escritório)</small></span></div>
+      <div class="row"><span class="k" data-i18n="spec-master-suite">Suíte master</span><span class="v" data-i18n="spec-master-details">Closet + banho duplo</span></div>
+      <div class="row"><span class="k" data-i18n="spec-bathrooms">Banheiros</span><span class="v">3 + lavabo</span></div>
+      <div class="row"><span class="k" data-i18n="spec-living">Sala</span><span class="v" data-i18n="spec-living-details">3 ambientes · pé-direito alto</span></div>
+      <div class="row"><span class="k" data-i18n="spec-kitchen">Cozinha</span><span class="v" data-i18n="spec-kitchen-details">Integrada · planejada</span></div>
+    </div>
+    <div class="spec">
+      <div class="row"><span class="k" data-i18n="spec-service">Serviço</span><span class="v" data-i18n="spec-service-details">Dependência completa</span></div>
+      <div class="row"><span class="k" data-i18n="spec-floor">Andar</span><span class="v" data-i18n="spec-floor-details">8º · único no pavimento</span></div>
+      <div class="row"><span class="k" data-i18n="spec-view">Vista</span><span class="v" data-i18n="spec-view-details">Lateral mar</span></div>
+      <div class="row"><span class="k" data-i18n="spec-parking">Vagas</span><span class="v">2</span></div>
+      <div class="row"><span class="k" data-i18n="spec-concierge">Portaria</span><span class="v">24 horas</span></div>
+      <div class="row"><span class="k" data-i18n="spec-condo">Condomínio</span><span class="v">R$ 3.500 / mês</span></div>
+      <div class="row"><span class="k" data-i18n="spec-property-tax">IPTU</span><span class="v">R$ 1.800 / mês</span></div>
+    </div>
+  </div>
+  <div class="spec">
+    <div class="row"><span class="k" data-i18n="spec-status">Situação</span><span class="v" data-i18n="spec-status-details">Pronto para morar · porteira fechada · legalizado</span></div>
+    <div class="row"><span class="k" data-i18n="spec-price">Valor</span><span class="v">R$ 6.900.000</span></div>
+  </div>
+</section>
+
+<section id="contato" class="contact">
+  <div class="block wrap grid">
+    <div>
+      <p class="eyebrow" data-i18n="contact-label">Contato direto</p>
+      <h2 data-i18n="contact-title">Vamos conversar,<br>sem intermediários.</h2>
+      <p style="color:#4a463f" data-i18n="contact-desc">Preencha ao lado e você será direcionado ao meu WhatsApp com a mensagem pronta. Respondo pessoalmente, com total discrição.</p>
+    </div>
+    <div class="form">
+      <div class="field"><label for="nome" data-i18n="form-name-label">Seu nome</label><input id="nome" type="text" placeholder="Como devo te chamar?" data-i18n-placeholder="form-name-placeholder"></div>
+      <div class="field"><label for="fone" data-i18n="form-phone-label">Telefone (opcional)</label><input id="fone" type="tel"></div>
+      <div class="field"><label for="msg" data-i18n="form-message-label">Mensagem</label><textarea id="msg" placeholder="Tenho interesse no apartamento de Ipanema. Gostaria de agendar uma visita." data-i18n-placeholder="form-message-placeholder"></textarea></div>
+      <button id="send" type="button" data-i18n="form-submit">Enviar pelo WhatsApp
+        <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-1.7-.1-.4-.1-.9-.3-1.6-.6-2.8-1.2-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 .9-2.2.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5.2.5.7 1.8.8 1.9.1.1.1.3 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1.2-.2.7-.8.9-1.1.2-.3.4-.2.6-.1.2.1 1.5.7 1.7.9.2.1.4.2.5.3.1.2.1.7-.1 1.3Z"/></svg>
+      </button>
+      <a class="phone-link" href="tel:+5521995532222" data-i18n="call-now">Ligue agora · (21) 99553-2222</a>
+      <p class="note" data-i18n="form-privacy">Seus dados vão apenas para o meu WhatsApp. Nada é armazenado neste site.</p>
+    </div>
+  </div>
+</section>
+
+<footer data-i18n="footer">Ipanema · Zona Sul · 300 m² · Venda direta com o proprietário — Rio de Janeiro / RJ</footer>
+
+<nav class="tabbar">
+  <a href="#inicio" data-nav="inicio" class="active"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span data-i18n="nav-home">Início</span></a>
+  <a href="#galeria" data-nav="galeria"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5L5 20"/></svg><span data-i18n="nav-gallery">Galeria</span></a>
+  <a href="#detalhes" data-nav="detalhes"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v18H6a2 2 0 0 1-2-2z"/><path d="M9 3v18"/></svg><span data-i18n="nav-specs">Detalhes</span></a>
+  <a href="#contato" data-nav="contato"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg><span data-i18n="nav-contact">Contato</span></a>
+</nav>
+
+<script>
+const i18n = {
+  pt: {
+    location: "Ipanema · Segunda quadra",
+    title: "Ipanema 300m²",
+    subtitle: "Um andar inteiro. Um projeto de arquitetura. Pronto para morar.",
+    gated: "Porteira fechada",
+    schedule: "Agendar uma visita",
+    sale: "Venda direta",
+    area: "Área",
+    bedrooms: "Quartos",
+    "master-label": "Master",
+    suite: "Suíte",
+    floor: "Andar",
+    "property-label": "O imóvel",
+    "property-title": "Existem apartamentos.<br>E existem obras de arquitetura.",
+    "property-desc1": "Este ocupa sozinho todo o 8º andar",
+    "property-desc2": "Sala em três ambientes com pé-direito alto, cozinha integrada e planejada com porta de correr, lavabo e área de serviço com dependência completa. Na ala íntima, a suíte master traz grande closet e banheiro inspirado na melhor hotelaria — chuveiro duplo e duas cubas — além dos demais quartos, escritório e banheiros sociais.",
+    "property-desc3": "Marcenaria planejada, várias peças em mármore, janelas antirruído, 2 vagas e portaria 24h. Aqui não se compra apenas um apartamento: adquire-se um projeto residencial completo, vendido porteira fechada — e negociado diretamente com o proprietário, com discrição.",
+    "gallery-label": "Galeria",
+    "gallery-title": "Os ambientes",
+    "specs-label": "Detalhes",
+    "specs-title": "Ficha técnica",
+    "spec-area": "Área",
+    "spec-bedrooms": "Quartos",
+    "spec-bedrooms-detail": "(3 dorm. + escritório)",
+    "spec-master-suite": "Suíte master",
+    "spec-master-details": "Closet + banho duplo",
+    "spec-bathrooms": "Banheiros",
+    "spec-living": "Sala",
+    "spec-living-details": "3 ambientes · pé-direito alto",
+    "spec-kitchen": "Cozinha",
+    "spec-kitchen-details": "Integrada · planejada",
+    "spec-service": "Serviço",
+    "spec-service-details": "Dependência completa",
+    "spec-floor": "Andar",
+    "spec-floor-details": "8º · único no pavimento",
+    "spec-view": "Vista",
+    "spec-view-details": "Lateral mar",
+    "spec-parking": "Vagas",
+    "spec-concierge": "Portaria",
+    "spec-condo": "Condomínio",
+    "spec-property-tax": "IPTU",
+    "spec-status": "Situação",
+    "spec-status-details": "Pronto para morar · porteira fechada · legalizado",
+    "spec-price": "Valor",
+    "contact-label": "Contato direto",
+    "contact-title": "Vamos conversar,<br>sem intermediários.",
+    "contact-desc": "Preencha ao lado e você será direcionado ao meu WhatsApp com a mensagem pronta. Respondo pessoalmente, com total discrição.",
+    "form-name-label": "Seu nome",
+    "form-name-placeholder": "Como devo te chamar?",
+    "form-phone-label": "Telefone (opcional)",
+    "form-message-label": "Mensagem",
+    "form-message-placeholder": "Tenho interesse no apartamento de Ipanema. Gostaria de agendar uma visita.",
+    "form-submit": "Enviar pelo WhatsApp",
+    "call-now": "Ligue agora · (21) 99553-2222",
+    "form-privacy": "Seus dados vão apenas para o meu WhatsApp. Nada é armazenado neste site.",
+    "footer": "Ipanema · Zona Sul · 300 m² · Venda direta com o proprietário — Rio de Janeiro / RJ",
+    "nav-home": "Início",
+    "nav-gallery": "Galeria",
+    "nav-specs": "Detalhes",
+    "nav-contact": "Contato"
+  },
+  en: {
+    location: "Ipanema · Second block",
+    title: "Ipanema 300m²",
+    subtitle: "One entire floor. An architectural masterpiece. Ready to move in.",
+    gated: "Gated community",
+    schedule: "Schedule a visit",
+    sale: "Direct sale",
+    area: "Area",
+    bedrooms: "Bedrooms",
+    "master-label": "Master",
+    suite: "Suite",
+    floor: "Floor",
+    "property-label": "The property",
+    "property-title": "There are apartments.<br>And there are works of architecture.",
+    "property-desc1": "This one occupies the entire 8th floor",
+    "property-desc2": "Living room in three sections with high ceilings, integrated and planned kitchen with sliding door, powder room and service area with complete staff quarters. In the private wing, the master suite features a large walk-in closet and bathroom inspired by the finest hospitality standards — double shower and two sinks — plus additional bedrooms, home office and social bathrooms.",
+    "property-desc3": "Planned woodwork, various marble pieces, soundproof windows, 2 parking spaces and 24-hour concierge. Here you don't just buy an apartment: you acquire a complete residential project, sold gated — and negotiated directly with the owner, with complete discretion.",
+    "gallery-label": "Gallery",
+    "gallery-title": "The spaces",
+    "specs-label": "Details",
+    "specs-title": "Technical specifications",
+    "spec-area": "Area",
+    "spec-bedrooms": "Bedrooms",
+    "spec-bedrooms-detail": "(3 bedrooms + home office)",
+    "spec-master-suite": "Master suite",
+    "spec-master-details": "Walk-in closet + double bathroom",
+    "spec-bathrooms": "Bathrooms",
+    "spec-living": "Living",
+    "spec-living-details": "3 sections · high ceilings",
+    "spec-kitchen": "Kitchen",
+    "spec-kitchen-details": "Integrated · planned",
+    "spec-service": "Service",
+    "spec-service-details": "Complete staff quarters",
+    "spec-floor": "Floor",
+    "spec-floor-details": "8th · exclusive on this level",
+    "spec-view": "View",
+    "spec-view-details": "Side sea view",
+    "spec-parking": "Parking",
+    "spec-concierge": "Concierge",
+    "spec-condo": "Condo fee",
+    "spec-property-tax": "Property tax",
+    "spec-status": "Status",
+    "spec-status-details": "Ready to move in · gated · registered",
+    "spec-price": "Price",
+    "contact-label": "Direct contact",
+    "contact-title": "Let's talk,<br>no intermediaries.",
+    "contact-desc": "Fill in the form and you'll be directed to my WhatsApp with the message ready. I respond personally, with complete discretion.",
+    "form-name-label": "Your name",
+    "form-name-placeholder": "What should I call you?",
+    "form-phone-label": "Phone (optional)",
+    "form-message-label": "Message",
+    "form-message-placeholder": "I'm interested in the Ipanema apartment. I'd like to schedule a visit.",
+    "form-submit": "Send via WhatsApp",
+    "call-now": "Call now · +55 21 99553-2222",
+    "form-privacy": "Your data goes only to my WhatsApp. Nothing is stored on this website.",
+    "footer": "Ipanema · South Zone · 300 m² · Direct sale with the owner — Rio de Janeiro / RJ",
+    "nav-home": "Home",
+    "nav-gallery": "Gallery",
+    "nav-specs": "Details",
+    "nav-contact": "Contact"
+  }
+};
+
+const WHATSAPP = "5521995532222";
+const HERO_IMG = "/fotos/apartamento-ipanema-sala-varanda-vista-mar.jpg";
+
+let currentLang = localStorage.getItem("lang") || "pt";
+
+function setLanguage(lang) {
+  currentLang = lang;
+  localStorage.setItem("lang", lang);
+  
+  document.documentElement.lang = lang === "en" ? "en" : "pt-BR";
+  
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (i18n[lang][key]) {
+      el.innerHTML = i18n[lang][key];
+    }
+  });
+  
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
+    const key = el.getAttribute("data-i18n-placeholder");
+    if (i18n[lang][key]) {
+      el.placeholder = i18n[lang][key];
+    }
+  });
+  
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.dataset.lang === lang);
+  });
+}
+
+document.querySelectorAll(".lang-btn").forEach(btn => {
+  btn.addEventListener("click", () => setLanguage(btn.dataset.lang));
+});
+
+setLanguage(currentLang);
+
+const heroImg = HERO_IMG;
+const b = document.getElementById("herobg");
+if (heroImg) {
+  b.style.backgroundImage = "url('" + heroImg + "')";
+  b.style.backgroundSize = "cover";
+  b.style.backgroundPosition = "center";
+} else {
+  b.classList.add("placeholder");
+}
+
+function waLink(text) {
+  return "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(text);
+}
+
+const baseMsgPt = "Olá! Tenho interesse no apartamento de 300 m² em Ipanema (R$ 6.900.000, venda direta). Gostaria de mais informações.";
+const baseMsgEn = "Hello! I'm interested in the 300 m² apartment in Ipanema (BRL 6,900,000, direct sale). I'd like more information.";
+
+document.querySelectorAll("[data-whatsapp]").forEach(a => {
+  a.href = waLink(currentLang === "pt" ? baseMsgPt : baseMsgEn);
+  a.target = "_blank";
+  a.rel = "noopener";
+});
+
+document.getElementById("send").addEventListener("click", () => {
+  const n = document.getElementById("nome").value.trim();
+  const f = document.getElementById("fone").value.trim();
+  const m = document.getElementById("msg").value.trim();
+  
+  let msg = currentLang === "pt" 
+    ? "Olá! Vim pelo site do apartamento de 300 m² em Ipanema."
+    : "Hello! I came from the Ipanema apartment website.";
+  
+  if (n) msg += "\n" + (currentLang === "pt" ? "Nome" : "Name") + ": " + n;
+  if (f) msg += "\n" + (currentLang === "pt" ? "Telefone" : "Phone") + ": " + f;
+  msg += "\n\n" + (m || (currentLang === "pt" ? "Gostaria de agendar uma visita." : "I'd like to schedule a visit."));
+  
+  window.open(waLink(msg), "_blank", "noopener");
+});
+
+const links = new Map([...document.querySelectorAll(".tabbar a")].map(a => [a.dataset.nav, a]));
+const io = new IntersectionObserver(es => {
+  es.forEach(e => {
+    if (e.isIntersecting) {
+      links.forEach(l => l.classList.remove("active"));
+      (links.get(e.target.id) || {}).classList?.add("active");
+    }
+  });
+}, { rootMargin: "-45% 0px -50% 0px" });
+
+document.querySelectorAll("section[id]").forEach(s => io.observe(s));
+</script>
+</body>
 </html>
